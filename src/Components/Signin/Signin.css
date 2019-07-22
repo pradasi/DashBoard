@@ -1,0 +1,118 @@
+/* .main{
+  margin: 0;
+}
+ */
+
+.trapezoid{
+  margin-left: 0px;
+  border-left: 695px solid orange ;
+  border-bottom: 625px solid transparent;
+  height: 0px;
+  width: 695px;
+  left: 1px;
+  /* background:  rgba(173,216,230,0.1) ; */
+  border-left-color: rgba(173,216,230,0.8) ;
+}
+
+
+.trapezoid {
+    position:relative;
+}
+.square{
+  float: right;
+  width: 670px;  
+  height: 100%;
+  /* background-color: lightblue; */
+  /*background: rgba(173,216,230,0.1) ;*/
+}
+    
+   
+    
+.LoginBox
+{
+  position:absolute ;
+  top:50% ;
+  left: 70% ;
+  transform: translate(-50%,-50%) ;
+  width:350px ;
+  height: 420px ;
+  padding:80px 40px ;
+  box-sizing:border-box ;
+  background: rgba(173,216,230,0.9);
+  border: 1px solid white ;
+  border-radius: 10px ;
+    
+    
+}
+h1
+{
+  margin:0 ;
+  padding:0 0 20px 0 ;
+  color:white;
+  text-align: center ;  
+  font-family: 'Pacifico', cursive;
+}
+.LoginBox p
+{
+  margin:0px ;
+  padding:0px ;
+  font-weight:bold ;
+  color:white;
+    
+}
+.LoginBox input 
+{
+    width:100% ;
+    margin-bottom: 20px ;
+}
+.LoginBox input[type="text"],
+.LoginBox input[type="Password"]
+{
+  -webkit-transition: all 0.60s ease-in-out;
+  border:none ;
+  border-bottom:1px solid white ;
+  background:transparent ;
+  height:40px ;
+  color:white;
+  font-size:16px;
+}
+    
+input[type=text]:focus,input[type="Password"]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ 
+}
+::placeholder{
+    color:rgba(255,255,255,1);
+}
+.LoginBox input[type="submit"]
+{
+  border:none ;
+  height:40px;
+  color:black;
+  font-size: 16px ;
+  background-color: white ; 
+  cursor:pointer;
+  border-radius:7px ;
+
+}
+.LoginBox input[type="submit"]:hover
+{
+  background-color:rgba(102, 167, 226, 1);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1); 
+}
+.LoginBox a
+{
+  color:#fff ;
+  font-size:16px ;
+  font-weight:bold ;
+}
+
+.img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}

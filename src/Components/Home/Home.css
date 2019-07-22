@@ -1,0 +1,47 @@
+.chart-container{
+	width: 1110px;
+	display: flex;
+}
+
+.left-chart{
+position: inherit;
+height: 100%;
+width: 500px;
+}
+
+.right-chart{
+	position: inherit;
+	width: 500px;
+	margin-right: 0px;
+	margin-left: 100px;
+
+}
+
+.box{
+	position: inherit;
+	margin: 100px 300px;
+	margin-left: 200px;
+}
+.chr{
+	border: 2px solid black;
+	position: inherit;
+	margin-left: 0px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .chart-container{
+	display: block;
+	}
+	.right-chart{
+	position: inherit;
+	width: 500px;
+	margin-left: 100px;
+	}
+	.left-chart{
+	position: inherit;
+	height: 100%;
+	width: 500px;
+	margin-left: 100px;
+	}
+}

@@ -1,0 +1,9 @@
+.scroll{
+	overflow: scroll;
+	height: 580px;
+	width: 1110px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}

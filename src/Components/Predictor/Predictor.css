@@ -1,0 +1,19 @@
+.form{
+	width: 600px;
+	border: 2px solid black;
+	margin-bottom: 25px;
+	
+}
+
+.input-box{
+	margin-left: 250px;
+}
+
+.xBox input[type=text] {
+  background-color: #3CBC8D;
+  color: blue;
+}
+.chrx{
+	border: 2px solid black;
+	margin-left: 250px;
+}

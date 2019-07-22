@@ -1,0 +1,17 @@
+MDBIframe{
+    
+    margin-left: 700px ;
+    height: 1000px  ;
+    background-color: orange ;
+    overflow-y: hidden !important;
+    padding: 0px ;
+        width:100px ;
+}
+.a2{
+    
+    height: 0px ;
+}
+iframe::-webkit-scrollbar {
+     display: none; 
+}
+

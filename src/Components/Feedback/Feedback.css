@@ -1,0 +1,53 @@
+ .feed{
+  margin: 50px;
+ }
+
+ .feed p{
+  color: black;
+ }
+
+.heading{
+  color: black;
+  font-family: sans-serif;
+}  
+
+input[type="text"] {           
+  border:1px solid black ;                    
+  height:40px ;
+  color:black;
+  font-size:18px;
+  padding:10px ;
+  display: flex ;
+  margin-bottom: 10px ;
+  border-radius: 5px ;
+}
+
+input[type="submit"]
+{
+  border-radius: 5px ;
+}
+input[type="radio"]
+{
+  align-content: center ;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
